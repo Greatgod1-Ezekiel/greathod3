@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Art Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--Header/
+   / Navbar-->
+  <nav class="navbar">
+    <div class="navbar-container">
+        <div class="logo">Ezekiel Pencil Art</div>
+        
+        <div class="menu-icon" id="menuIcon">&#9776;</div> <!-- Hamburger icon -->
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    
+  <!--Hero section-->
+   <section class="hero-section">
+        <div class="section-content">
+       <div class="hero-details">
+
+            <h1 class="title">Welcome to Ezekiel Pencil Art</h1>
+            <p class="description"> Welcome to Ezekiel Pencil Art, where we give detailed artwork of any kind</p>
+            </div>
+            </div>
+            
+           
+                <h2>Order Now</h2>
+                <form action="https://formsubmit.co/greatgodezekiel123@gmail.com" method="POST">
+
+                <label for="artType">Select Art Type:</label>
+                <select id="artType" name="artType" required>
+                    <option value="">-- Select --</option>
+                    <option value="Digital Art">Digital Art</option>
+                    <option value="Pencil Art">Pencil Art</option>
+                    <option value="Pen Art">Pen Art</option>
+                </select>
+
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" required>
+
+                <label for="instructions">Instructions:</label>
+                <textarea id="instructions" name="instruction" rows="3" placeholder="Any specific details..."></textarea>
+<label for="Email">Email:</label>
+                <input type="email" id="email" name="email" rows="3" placeholder="type your email"></textarea>
+                <!-- Disable Captcha -->
+                 <input type="hidden" name="_captcha" value="false">
+
+                <button type="submit">Place Order</button>
+            </form>
+        </div>
+        </section>
+
+         <!--About section-->
+    <section id="about">
+        <div class="section-content">
+        <div class="about-details">
+ <h2 class="section-title">About Me</h2> 
+<p class="description">
+            I'm a passionate artist who expresses emotions and stories through colors, lines, and shapes. 
+            Explore my portfolio to discover unique digital and traditional artworks.
+             At Ezekiel Pencil Art we give detailed and premium artwork of any kind 
+             ranging from individual portraits to wedding portraits to birthday portraits and 
+            many more, we specailize on Pencil Art, Pen Art, Digital Art.
+             Ezekiel Pencil Art will give you the best.
+                               Contact us: 07043205587
+
+        </p>
+        </div>
+        </div>
+    </section>
+
+
+ <!--Gallery section-->
+    <section id="gallery">
+        <div class="section-content">
+        <div class="gallery-details">
+        <h2>Art Gallery</h2>
+        <div class="art-grid">
+            <div class="art-item">
+                <img src="SHINA.png" alt="Artwork 1">
+                <p>Pencil drawing</p>
+            </div>
+            <div class="art-item">
+                <img src="SISTER OLY.png" alt="Artwork 2">
+                <p>Digital drawing</p>
+            </div>
+            <div class="art-item">
+                <img src="IMAGINATIVE.jpg" alt="Artwork 3">
+                <p>Pen drawing</p>
+            </div>
+            <div class="art-item">
+                <img src="NAVY.png" alt="Artwork">
+                <p>Pencil drawing</p>
+            </div>
+            <div class="art-item">
+                <img src="PRAISEGOD.jpg" alt="Artwork">
+                <p>Pencil drawing</p></div>
+                <div class="art-item">
+                <img src="PSTKUMUYI.png" alt="Artwork">
+                <p>Pencil drawing</p></div>
+                <div class="art-item">
+                <img src="HYPERPEN.jpg" alt="Artwork">
+                <p>Pen drawing</p></div>
+                <div class="art-item">
+                <img src="GODMAN.png" alt="Artwork">
+                <p>Digital drawing</p></div>
+                <div class="art-item">
+                <img src="BRO DAN.png" alt="Artwork">
+                <p>Digital drawing</p></div>
+                 <div class="art-item">
+                <img src="PROSPER.png" alt="Artwork">
+                <p>Digital drawing</p></div>
+        </div>
+    </section>
+
+    <section id="reviews">
+        <div class="section-content">
+        <div class="review-details">
+        <h2>Customer Reviews</h2>
+
+        <div id="reviewList">
+            <!-- Reviews will appear here -->
+        </div>
+
+        <h3>Leave a Review</h3>
+       <textarea id="reviewInput" rows="3" placeholder="Type your Name & review here E.g SAMUEL:..."></textarea>
+        <button id="submitReview">Submit Review</button>
+    </section>
+
+     <!--Contact section-->
+    <section id="contact">
+        <h2>Contact Me</h2>
+            <form action="https://formsubmit.co/greatgodezekiel123@gmail.com" method="POST">
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <!-- Disable Captcha -->
+                 <input type="hidden" name="_captcha" value="false">
+
+
+            <button type="submit">Send Message</button>
+        </form>
+    
+    </section>
+
+    <footer>
+        <p> Ezekiel Pencil Art. @2025 My Art Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="Script.js"></script>
+</body>
+</html>
